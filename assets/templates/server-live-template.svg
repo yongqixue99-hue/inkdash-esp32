@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <style>
+    text { font-family: "Microsoft YaHei UI", "Microsoft YaHei", sans-serif; fill: #000000; }
+    .label { font-size: 16px; font-weight: 800; }
+    .meta { font-size: 14px; font-weight: 700; }
+    .fine { font-size: 12px; font-weight: 700; }
+  </style>
+  <rect width="800" height="480" fill="#ffffff" shape-rendering="crispEdges"/>
+
+  <text x="30" y="47" font-size="27" font-weight="800">服务器状态</text>
+  <text x="204" y="45" class="meta">通用数据接口</text>
+  <rect x="0" y="70" width="800" height="4" fill="#000000" shape-rendering="crispEdges"/>
+
+  <text x="30" y="104" class="label">本月剩余流量</text>
+  <circle cx="270" cy="207" r="96" fill="none" stroke="#000000" stroke-width="4"/>
+  <text x="270" y="164" class="meta" text-anchor="middle">剩余</text>
+  <text x="270" y="252" class="meta" text-anchor="middle">GB</text>
+
+  <text x="410" y="165" class="meta">本月已用</text>
+  <rect x="410" y="216" width="104" height="3" fill="#000000" shape-rendering="crispEdges"/>
+  <text x="410" y="246" class="meta">月度额度</text>
+
+  <text x="30" y="341" class="label">即时资源</text>
+  <circle cx="95" cy="405" r="49" fill="none" stroke="#000000" stroke-width="3"/>
+  <text x="95" y="428" class="fine" text-anchor="middle">CPU 15M</text>
+  <circle cx="270" cy="405" r="49" fill="none" stroke="#000000" stroke-width="3"/>
+  <text x="270" y="428" class="fine" text-anchor="middle">内存</text>
+  <circle cx="445" cy="405" r="49" fill="none" stroke="#000000" stroke-width="3"/>
+  <text x="445" y="428" class="fine" text-anchor="middle">磁盘</text>
+
+  <rect x="543" y="96" width="4" height="352" fill="#000000" shape-rendering="crispEdges"/>
+  <text x="575" y="112" class="label">服务周期</text>
+  <rect x="575" y="132" width="196" height="101" fill="none" stroke="#000000" stroke-width="3" shape-rendering="crispEdges"/>
+  <text x="588" y="157" class="fine">到期日期</text>
+  <text x="575" y="265" class="meta" fill="#ff0000" style="fill:#ff0000">到期倒计时</text>
+  <text x="742" y="326" font-size="22" font-weight="800" fill="#ff0000" style="fill:#ff0000">天</text>
+  <rect x="575" y="344" width="195" height="3" fill="#000000" shape-rendering="crispEdges"/>
+  <text x="575" y="378" class="meta">流量重置</text>
+  <text x="575" y="414" class="meta">套餐额度</text>
+  <rect x="575" y="428" width="195" height="3" fill="#000000" shape-rendering="crispEdges"/>
+</svg>

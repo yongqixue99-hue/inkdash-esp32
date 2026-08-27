@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <style>
+    text { font-family: "Microsoft YaHei UI", "Microsoft YaHei", sans-serif; fill: #000000; }
+    .label { font-size: 16px; font-weight: 700; }
+    .meta { font-size: 14px; font-weight: 700; }
+    .compact-meta { font-size: 13px; font-weight: 700; }
+    .white { fill: #ffffff; }
+  </style>
+  <rect width="800" height="480" fill="#ffffff" shape-rendering="crispEdges"/>
+
+  <text x="30" y="47" font-size="27" font-weight="800">CODEX 额度</text>
+  <rect x="0" y="70" width="800" height="4" fill="#000000" shape-rendering="crispEdges"/>
+
+  <text x="32" y="111" class="label">本周剩余</text>
+  <rect x="32" y="314" width="384" height="5" fill="#000000" shape-rendering="crispEdges"/>
+  <text x="32" y="353" font-size="22" font-weight="800">已用额度</text>
+  <text x="32" y="386" class="meta">周额度重置</text>
+  <text x="416" y="386" class="meta" text-anchor="end">北京时间</text>
+  <text x="102" y="437" font-size="36" font-weight="800">月</text>
+  <text x="224" y="437" font-size="36" font-weight="800">日</text>
+
+  <rect x="470" y="96" width="4" height="352" fill="#000000" shape-rendering="crispEdges"/>
+
+  <text x="535" y="120" class="compact-meta">昨日</text>
+  <text x="667" y="120" class="compact-meta">今日</text>
+  <rect x="638" y="96" width="3" height="101" fill="#000000" shape-rendering="crispEdges"/>
+  <rect x="510" y="193" width="260" height="4" fill="#000000" shape-rendering="crispEdges"/>
+
+  <text x="574" y="235" class="compact-meta" text-anchor="middle">近7日 token</text>
+  <text x="706" y="235" class="meta" text-anchor="middle">账号累计</text>
+  <rect x="638" y="215" width="3" height="76" fill="#000000" shape-rendering="crispEdges"/>
+  <rect x="510" y="296" width="260" height="4" fill="#000000" shape-rendering="crispEdges"/>
+
+  <text x="510" y="329" class="label">账号近 7 日</text>
+  <rect x="510" y="435" width="260" height="3" fill="#000000" shape-rendering="crispEdges"/>
+</svg>

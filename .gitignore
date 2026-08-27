@@ -1,0 +1,16 @@
+.pio/
+.pio-home/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+.env
+include/secrets.h
+config/server-dashboard.json
+*.key
+*.pk8
+artifacts/
+backups/
+logs/
+tmp/

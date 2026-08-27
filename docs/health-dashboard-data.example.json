@@ -1,0 +1,28 @@
+{
+  "period_start": "YYYY-MM-DD",
+  "period_end": "YYYY-MM-DD",
+  "data_days": 0,
+  "goals": {
+    "move_kcal": null,
+    "exercise_minutes": null,
+    "stand_hours": null
+  },
+  "steps_daily_avg": null,
+  "active_energy_kcal_daily_avg": null,
+  "exercise_minutes_daily_avg": null,
+  "stand_hours_daily_avg": null,
+  "sleep_hours_daily_avg": null,
+  "resting_heart_rate_avg": null,
+  "hrv_ms_avg": null,
+  "steps_change_percent": null,
+  "daily": [
+    {"date": "YYYY-MM-DD", "steps": null, "active_energy_kcal": null, "exercise_minutes": null, "stand_hours": null, "sleep_hours": null, "resting_heart_rate": null, "hrv_ms": null},
+    {"date": "YYYY-MM-DD", "steps": null, "active_energy_kcal": null, "exercise_minutes": null, "stand_hours": null, "sleep_hours": null, "resting_heart_rate": null, "hrv_ms": null},
+    {"date": "YYYY-MM-DD", "steps": null, "active_energy_kcal": null, "exercise_minutes": null, "stand_hours": null, "sleep_hours": null, "resting_heart_rate": null, "hrv_ms": null},
+    {"date": "YYYY-MM-DD", "steps": null, "active_energy_kcal": null, "exercise_minutes": null, "stand_hours": null, "sleep_hours": null, "resting_heart_rate": null, "hrv_ms": null},
+    {"date": "YYYY-MM-DD", "steps": null, "active_energy_kcal": null, "exercise_minutes": null, "stand_hours": null, "sleep_hours": null, "resting_heart_rate": null, "hrv_ms": null},
+    {"date": "YYYY-MM-DD", "steps": null, "active_energy_kcal": null, "exercise_minutes": null, "stand_hours": null, "sleep_hours": null, "resting_heart_rate": null, "hrv_ms": null},
+    {"date": "YYYY-MM-DD", "steps": null, "active_energy_kcal": null, "exercise_minutes": null, "stand_hours": null, "sleep_hours": null, "resting_heart_rate": null, "hrv_ms": null}
+  ],
+  "generated_at": "YYYY-MM-DDTHH:MM:SS+08:00"
+}
